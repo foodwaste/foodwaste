@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 33,
+    "uniqCompNum": 91,
     "versionPublish": "3.12.1",
     "favicon": "",
     "noImageResize": ""
@@ -25,55 +25,6 @@
       },
       "components": [
         {
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#7ac673"
-            },
-            ".mbr-navbar__section": {},
-            ".mbr-navbar__hamburger": {
-              "color": "#3d8eb9"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-0",
-          "_params": {
-            "color": "#7ac673",
-            "hamburgerColor": "#3d8eb9",
-            "transparent": true,
-            "sticky": true,
-            "collapsed": false,
-            "logo": true,
-            "showBrand": true,
-            "showButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-170x128.jpg",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">food waste&nbsp;</a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">the problem</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">solutions</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">consequences</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">what you can do</a></li>",
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
-        },
-        {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
           "_tags": [
             "Theme"
@@ -81,14 +32,59 @@
           "_name": "header1",
           "_styles": {
             "H1": {
-              "text-align": "left"
+              "font-size": "100px"
+            },
+            "P": {
+              "font-size": "36px",
+              "text-align": "center"
             }
           },
-          "_anchor": "header1-1",
+          "_anchor": "header1-1h",
           "_params": {
-            "parallax": true,
+            "parallax": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/img-2000x1500.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/img-2000x1830.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#084e2c",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "title": "FOOD WASTE<br><br>",
+          "text": "Norwegian consumers throw away over 200.000 tonnes of edible food every year. <br>How can we reduce it? &nbsp;",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">DOWNLOAD NOW</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_inherit": "header1",
+          "_tags": [
+            "Theme"
+          ],
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_styles": {
+            "H1": {
+              "color": "#475577"
+            },
+            "P": {
+              "color": "#4d5c61",
+              "text-align": "left",
+              "font-size": "19px"
+            }
+          },
+          "_anchor": "header4-1i",
+          "_params": {
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/epler-sikkert-2-2000x1000.jpg",
             "bgColor": "#4c6972",
             "bgColorRadio": false,
             "bgVideo": {
@@ -99,28 +95,393 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
+            "showTitle": false,
             "showText": true,
             "showButtons": false,
-            "showArrow": true
+            "showArrow": false
           },
-          "title": "Food waste&nbsp;",
-          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
-          "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">READ MORE</a>"
+          "title": "MOBIRISE WEBSITE BUILDER",
+          "text": "“I notice how leftovers and food waste generally are more talked about today than when I started my blog eight years ago. Most people laughed at my project back then…”&nbsp;&nbsp;Louise Brunborg-Næss is the author behind the blog<a href=\"http://restemat.blogspot.co.uk \" target=\"_blank\"> Restemat </a>(“leftovers”) that encourages people to use the all the food they buy. She&nbsp;is certain that there is a trend towards wasting less edible food. <br><br>In fact, Norwegian consumers reduced their food waste by nine per cent between 2010 and 2015, according to <a href=\"https://www.ostfoldforskning.no/en/publications/Publication/?id=2011 \" target=\"_blank\">Østfoldforskning</a>. Still, we each throw away 42 kilograms of edible food every year just in our households.\n",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-1k",
+          "_params": {
+            "outside": true,
+            "showText": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/skjermbilde-2017-04-19-kl-1400x1540.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_inherit": "header1",
+          "_tags": [
+            "Theme"
+          ],
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_styles": {
+            "P": {
+              "color": "#4b5b60",
+              "font-size": "19px"
+            }
+          },
+          "_anchor": "header4-1l",
+          "_params": {
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/gulrot-riktig-redigert-2000x1000.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "right",
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": false
+          },
+          "title": "MOBIRISE WEBSITE BUILDER",
+          "text": "The term ‘food waste’ only includes edible food - food that could have been eaten had it not gone bad. It does not include inedible bones, peel, stems and leaves. That means we throw away food just because we buy more than we need or because we trust the sell by date more than our senses. <br><br>And it is our responsibility to reduce the waste. 61 per cent of the total food waste in Norway is wasted by the households. But politicians discuss food waste in Parliament, organisations advice people and supermarkets make it easier for consumers to make good choices.\n",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>"
+        },
+        {
+          "_inherit": "header1",
+          "_tags": [
+            "Theme"
+          ],
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "header4",
+          "_styles": {
+            "P": {
+              "color": "#4d5c61",
+              "font-size": "19px"
+            }
+          },
+          "_anchor": "header4-1m",
+          "_params": {
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/kalrot-riktig-redigert-2000x1000.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "left",
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": false,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": false
+          },
+          "title": "MOBIRISE WEBSITE BUILDER",
+          "text": "Malin Jacob, one of the authors behind the blog <a href=\"http://gronnejenter.no\" target=\"_blank\">Grønne Jenter</a> (“Green Girls”), is certain&nbsp;that the market is going in the right direction: “Both supermarkets, producers and consumers have become more concerned with food waste. In the Parliament more people are talking about a food waste law. At the same time I think people need an attitude change, since most of the food waste is created in the home.” <br><br>Where there is a demand, there is a supply, and we maintain the demand by buying more than we need. This website aims to show you how people are fighting overconsumption and limiting the demand - and also give you advice on how you can waste less.&nbsp;\n",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"https://mobirise.com\">FOR MAC</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-1n",
+          "_params": {
+            "outside": true,
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/skjermbilde-2017-04-14-kl-1400x1072.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1o",
+          "text": "<p>«What is most important is that we as consumers understand that all food has a value and deserves to be eaten before it goes bad,” said Anne Marie Schrøder at <a href=\"http://matvett.no\" target=\"_blank\">Matvett,</a> a site that advices consumers on how to waste less food. \n\nThe website promotes reduced food waste with consumers. On the site, people can search for recipes that include groceries that usually go bad. \n&nbsp;</p><p><b>Here are some advice on how you can avoid throwing away good food.</b> \n&nbsp;</p>",
+          "_styles": {
+            "P": {
+              "color": "#4b5b60",
+              "font-size": "19px"
+            }
+          }
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_params": {
+            "autoplay": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/img-3-2000x1500.jpg",
+                "contentAlign": "center",
+                "overlay": true,
+                "overlayOpacity": "0.7",
+                "overlayColor": "#28324e",
+                "showTitle": true,
+                "title": "BEFORE YOU SHOP",
+                "showText": true,
+                "text": "How to not buy too much. &nbsp;",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/blank-canvas-2000x1414.png",
+                "contentAlign": "center",
+                "overlay": true,
+                "overlayOpacity": "1",
+                "overlayColor": "#7ac673",
+                "showTitle": true,
+                "title": "#1 FIND GOOD HABITS&nbsp;",
+                "showText": true,
+                "text": "Anne Marie Schrøder at Matvett advices: “Find habits that work for you and your family. Have a grocery list on the counter where everyone can write down what they need. That way, you do not end up&nbsp;with four bottles of ketchup or taco sauce, and buy only what you actually need.” \n",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/blank-canvas-2000x1414.png",
+                "contentAlign": "center",
+                "overlay": true,
+                "overlayOpacity": "1",
+                "overlayColor": "#faaf40",
+                "showTitle": true,
+                "title": "#2 PLAN YOUR WEEK&nbsp;",
+                "showText": true,
+                "text": "”Make a weekly menu and make sure you can use groceries for several dishes. That way&nbsp;everything gets used,” said Schrøder.&nbsp;<br><br>This is a common advice and Jacob agrees: ”Only shop once a week, and plan the menu for the entire week. That way, you get a clear idea of what you are going to eat and, and you do not impulse buy.” \n<br> \n",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/img-4-2000x1500.jpg",
+                "contentAlign": "left",
+                "overlay": true,
+                "overlayOpacity": "1",
+                "overlayColor": "#cccccc",
+                "showTitle": true,
+                "title": "#3 GET AN OVERVIEW&nbsp;",
+                "showText": true,
+                "text": "In addition to making a list of what you need, make sure you know what you already have. Jacob said: ”Take a picture of the food you have in the fridge before you go grocery shopping. That way you only buy exactly what you need.”\n",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#ffffff",
+            "showBullets": true
+          },
+          "_anchor": "slider-1p",
+          "articleLayout": false,
+          "_styles": {
+            "H1": {
+              "font-size": "60px",
+              "text-align": "center",
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ffffff",
+              "text-align": "center"
+            }
+          }
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
+          "_anchor": "header3-1r",
+          "title": "THE DIFFICULTY OF MAKING GOOD CHOICES",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": ""
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1q",
+          "text": "<p>As Malin Jacob said, consumers need a change of habit. With eight other girls, she writes the blog Grønne Jenter, a blog collective about environment and how to live more eco-friendly. But it is not obvious to everyone how to become more green. </p><p>Jacob said: “For us, living eco-friendly has become a habit and a lifestyle. We do not really notice that we live a little greener than average. But for many it might be a threshold. The biggest obstacles to live a greener life is actually the politicians. They have to make it easier to make green choices in the daily life.” \n</p><p>Consumers are the biggest wasting group when it comes to food waste, but we can get help. Jacob lists a few steps that would make shopping easier and more eco-friendly: “First and foremost supermarkets need to work to reduce the food waste in their own shop, and many are luckily already working on this. Supermarkets can let people buy food in smaller quantities then they do today. It is unnecessary to buy 20 carrots when you only need two. They can also advocate to get date stamps that show when the food really is expired.” \n</p>",
           "_styles": {
-            "H3": {
-              "text-align": "left",
-              "font-size": "48px"
+            "P": {
+              "color": "#4b5b60",
+              "font-size": "19px"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-1s",
+          "_params": {
+            "outside": false,
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/img-1400x843.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
             }
           },
-          "_anchor": "header3-b",
-          "title": "Food waste is a &nbsp;problem for the nature and our economy&nbsp;",
+          "text": "Peel is not considered food waste. But it can be boiled to make homemade stock.&nbsp;",
+          "_styles": {
+            "SMALL": {
+              "color": "#cccccc",
+              "font-size": "17px"
+            }
+          }
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_params": {
+            "autoplay": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "slides": [
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/img-2000x1830.jpg",
+                "contentAlign": "center",
+                "overlay": true,
+                "overlayOpacity": "0.6",
+                "overlayColor": "#9365b8",
+                "showTitle": true,
+                "title": "AT HOME&nbsp;",
+                "showText": true,
+                "text": "How to use all the food in your fridge.&nbsp;",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/suppe-2-2000x1125.jpg",
+                "contentAlign": "left",
+                "overlay": true,
+                "overlayColor": "#28324e",
+                "showTitle": true,
+                "title": "#1 BE CREATIVE",
+                "showText": true,
+                "text": "As difficult as it may sound to become a creative chef, learning how to use groceries in unusual ways is a great way to use them all. <br>\n<br>Blogger Louise Brunborg-Næss shared her love for experimenting: “I have never been good at following recipes, and I have always enjoyed experimenting with groceries. I cook great food from what I find in the cupboard and fridge.” Her best advice is to embrace experimentation. <br>\n\n<br>And if cooking without a manual scares you, Ms Brunborg-Næss shares the best results of her experimentation on her <a href=\"http://restemat.blogspot.co.uk \" target=\"_blank\">blog</a> where readers can find recipes. \n",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/img-3040-kopi-2000x1368.jpg",
+                "contentAlign": "left",
+                "overlay": true,
+                "overlayOpacity": "0.9",
+                "showTitle": true,
+                "title": "#2 GET ORGANISED&nbsp;",
+                "showText": true,
+                "text": "According to Schrøder, storing food right is key to making it last longer. “A clean and&nbsp;hygienic fridge can save a lot&nbsp;of food waste, and a lot of money. Put the oldest sour cream in the front and wrap leftovers and opened containers well to avoid them drying out and spreading bacteria,” she said.<br> \n<br>Brunborg-Næss shares her advice for remembering all the food: “Have a shelf in the fridge designated for leftovers and food that are about to expire”. &nbsp;",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/blank-canvas-2000x1414.png",
+                "contentAlign": "center",
+                "overlay": true,
+                "overlayOpacity": "0.9",
+                "overlayColor": "#9365b8",
+                "showTitle": true,
+                "title": "#3 EAT YOUR LEFTOVERS&nbsp;",
+                "showText": true,
+                "text": "Leftover-blogger Brunborg-Næss said: “I had a grandmother who was very strict about no food going to waste. She kept everything, and often said ’With all the leftovers in our&nbsp;pots and pans we could have a big dinner party at the end of the year’. Leftovers combine all the best things: you save money, fight food waste and get to eat great food at the same time.” <br>\n\n<br>Matvett promotes the concept ”leftover Thursday” as a way to get people to eat what they have. Schrøder said: ”Eat leftovers one day a week. Matvett has launched the idea of Leftover Thursday, so that one can eat what is already in the fridge, and then grocery shop with good conscience for the weekend. That way, you can save valuable food that has travelled far to end up on your plate, not least the bin.” &nbsp;&nbsp;",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#ffffff",
+            "showBullets": true
+          },
+          "_anchor": "slider-1t",
+          "articleLayout": false,
+          "_styles": {
+            "H1": {
+              "font-size": "60px"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1u",
+          "title": "LOCAL POLITICAL INITIATIVES&nbsp;",
           "_params": {
             "showMeta": false
           },
@@ -131,103 +492,89 @@
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-c",
-          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>"
+          "_anchor": "content1-1v",
+          "text": "<p>Asker municipality is helping their inhabitants waste less food, to meet the goal of a 30 per cent reduction by 2025.</p><p>To help the inhabitants reduce their own food waste, the municipality of Asker promotes the project MatVinn («Food Gain») in cooperation with the environmental organisation <a href=\"https://www.framtiden.no\" target=\"_blank\">Framtiden i våre hender</a>. The participants can download a form to track the food that goes bad, and how much money they spend on food that is never eaten. </p><p>\nIngvild A. Hage in the recycling unit of the municipality of Asker said: «The desired results [of MatVinn] is that the inhabitants get more aware of their own food waste, and reduce it by following tips and tricks communicated through the project». The advice includes planning before shopping, learning the difference between use by and sell by dates and eating only leftovers one day a week, according to Fremtiden i våre hender.</p><p>Asker has a goal of reducing their food waste by 30 per cent between 2016 and 2025. \nThe project has been well received so far. The local newspaper <a href=\"https://www.budstikka.no/mat-og-drikke/familieliv/personlig-okonomi/sparer-12-000-kr-i-aret-pa-nye-matvaner/s/5-55-470877\" target=\"_blank\">Budstikka</a> wrote about a family of four that expected to save 12.000 kroner (£1000) this year because of the project. The Nyen Antonsen family reduced their food waste to a third of the previous waste in only four weeks, writes Budstikka. The family considered themselves environmentally conscious before the project started, but are happy about the changes they have made already. “We have cleaned the fridge to get an overview of what we already have, so we do not buy things unnecessarily,” the family listed as part of steps they have taken to waste less.</p><p><br></p><p><br></p><p> \n</p>",
+          "_styles": {
+            "P": {
+              "color": "#4b5b60",
+              "font-size": "19px"
+            }
+          }
         },
         {
+          "_inherit": "msg-box5",
           "_tags": [
             "Theme"
           ],
-          "_name": "image2",
-          "_anchor": "image2-j",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "font-size": "20px"
+            }
+          },
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-1w",
           "_params": {
-            "outside": false,
-            "showText": true
+            "imageSize": "26",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#85c7df",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false
           },
           "media": {
             "image": {
               "active": true,
-              "src": "images/slide3.jpg",
               "class": "mbr-figure__img",
-              "width": 1400
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/dato-1400x1455.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "linkInNewWindow": false,
+              "name": "cloud",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": 0
             }
           },
-          "text": "Create awesome mobile-friendly websites. No coding and free."
-        },
-        {
-          "items": [
-            {
-              "text": "<p class=\"mbr-reviews__p\">“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
-              "authorName": "ABANOUB S.",
-              "authorBio": "User"
-            },
-            {
-              "text": "<p class=\"mbr-reviews__p\">“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag &amp; drop with no time design bootstrap builder in present web design world.”</p>",
-              "authorName": "SUFFIAN A.",
-              "authorBio": "User"
-            },
-            {
-              "text": "<p class=\"mbr-reviews__p\">“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</p>",
-              "authorName": "JHOLLMAN C.",
-              "authorBio": "User"
-            },
-            {
-              "text": "<p class=\"mbr-reviews__p\">“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, aspernatur, voluptatibus, atque, tempore molestiae sed modi a ullam sint adipisci rerum vel praesentium voluptas deserunt veniam provident culpa sequi veritatis.”</p>",
-              "authorName": "John Smith",
-              "authorBio": "Developer"
-            }
-          ],
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "testimonials1",
-          "_styles": {
-            ".mbr-reviews__text P": {
-              "color": "#777777"
-            },
-            ".mbr-reviews__author-name": {
-              "color": "#41a85f"
-            }
-          },
-          "testimonial": [
-            {
-              "text": "<p class=\"mbr-reviews__p\">“its really very amazing app that makes me finish html page in 3 minutes ( that's usually takes more than 1 hours at least from me if i did it from scratch). i hope to have very big library and plugins for this APP thanks again for your nice application”</p>",
-              "authorName": "ABANOUB S.",
-              "authorBio": "User"
-            },
-            {
-              "text": "<p class=\"mbr-reviews__p\">“First of all hands off to you guys for your effort and nice, super tool. Good work mobirise team. We are expecting the new version soon with advance functionality with full bootstrap design. Great effort and super UI experience with easy drag &amp; drop with no time design bootstrap builder in present web design world.”</p>",
-              "authorName": "SUFFIAN A.",
-              "authorBio": "User"
-            },
-            {
-              "text": "<p class=\"mbr-reviews__p\">“At first view, looks like a nice innovative tool, i like the great focus and time that was given to the responsive design, i also like the simple and clear drag and drop features. Give me more control over the object's properties and ill be using this tool for more serious projects. Regards.”</p>",
-              "authorName": "JHOLLMAN C.",
-              "authorBio": "User"
-            }
-          ],
-          "_anchor": "testimonials1-g",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "count": "3",
-            "showName": true,
-            "showBio": true,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true
-          },
-          "header": "Three experts&nbsp;"
+          "headerAlign": "left",
+          "title": "HOW TO UNDERSTAND EXPIRATION DATES&nbsp;",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Many Norwegians are confused about “use by” and “sell by” dates. This leads them to throw away food that is actually edible. \n\nKenneth Melsom-Johansen, chef and product developer in Orkla Foods, told \n<a href=\"https://www.framtiden.no/201609097040/aktuelt/mat/sa-lenge-holder-best-for-maten.html\" target=\"_blank\">Fremtiden i våre hender.</a> about expiration dates. </p><p>He defined the terms as this: “Sell by/best before: Can lose some taste and colour after the expiration date, but are usually edible – and tasty – long after the date.” He said food with a use by date “can have a health hazard when expired. One needs to be more careful with these”. Often, it is up to each one of us to taste, smell and look to decide if the food is good and edible. \n</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
         },
         {
           "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
@@ -236,41 +583,63 @@
           ],
           "_name": "slider",
           "_params": {
-            "autoplay": true,
+            "autoplay": false,
             "paddingTop": 3,
             "paddingBottom": 3,
             "slides": [
               {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/img-1-2000x1500.jpg",
-                "contentAlign": "right",
-                "showTitle": true,
-                "title": "Slide 1",
-                "showText": true,
-                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
-              },
-              {
                 "active": false,
-                "image": "images/slide2.jpg",
+                "image": "@PROJECT_PATH@/assets/images/potet-riktig-redigert-2-2000x1000.jpg",
                 "contentAlign": "left",
+                "overlay": true,
+                "overlayColor": "#3f3982",
                 "showTitle": true,
-                "title": "Slide 2",
+                "title": "FOOD THAT HAS GONE BAD&nbsp;",
                 "showText": true,
-                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
-                "showButtons": true,
+                "text": "How to eat the food that is about to or has already expired.&nbsp;",
+                "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
                 "active": false,
-                "image": "images/slide3.jpg",
+                "image": "@PROJECT_PATH@/assets/images/blank-canvas-2000x1414.png",
                 "contentAlign": "center",
+                "overlay": true,
+                "overlayOpacity": "0.9",
+                "overlayColor": "#e4658b",
                 "showTitle": true,
-                "title": "Slide 3",
+                "title": "#1 DO NOT TRUST THE DATES&nbsp;",
                 "showText": true,
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "showButtons": true,
+                "text": "“A lot of the food we throw away has not really gone bad. For some reason, we trust the date stamp more than we trust our own senses,” said Jacob. “Even if something is out of date, it is not necessarily bad. Smell, taste and look at the food - just then can you decide if the food has actually expired.” <br>\n\n<br>This is a problem many face, and a big reason for our food waste. Learning what type of food it is safe to eat after the expiration date is key to not throwing away food unnecessarily. <br>\n\n<br>Schrøder supports this: “The sell by date indicates when the producer thinks the food is at its best. That does not mean the food is inedible or rotten after that date. Use your senses to decide if you should eat or throw out the food. The use by date is for food that easily goes bad like fresh fish, processed meat, chicken, raw sausages and&nbsp;intestines. These products are marked to ensure food safety.” &nbsp; \n",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/img-6-2000x1500.jpg",
+                "contentAlign": "center",
+                "overlay": true,
+                "overlayOpacity": "0.6",
+                "overlayColor": "#27aae0",
+                "showTitle": true,
+                "title": "#2 FREEZE",
+                "showText": true,
+                "text": "When food is frozen the rotting process stops. Food can safely be eaten when defrosted if it was fine when frozen. Especially meat, fish and cheese or leftovers are great to freeze. Just remember to check how long the specific groceries can normally be kept. <br>\n\n<br>Schrøder said: “Remember to date the food before you put it in the freezer to avoid it lying there for too long. It is a good idea to freeze&nbsp;food in portions to avoid defrosting too much.” &nbsp;\n",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/suppe-1-2000x1125.jpg",
+                "contentAlign": "center",
+                "overlay": true,
+                "overlayOpacity": "0.5",
+                "overlayColor": "#b8312f",
+                "showTitle": true,
+                "title": "#3 USE PRODUCTS DIFFERENTLY&nbsp;",
+                "showText": true,
+                "text": "Things that are no longer tempting to eat, can be used in a different way. Search blogs and webpages for inspiration. <a href=\"http://matvett.no\" target=\"_blank\">Matvett.no</a> lets you search for food by ingredient to make sure you can use it. <br>\n\n<br>“We have to get better at thinking about alternative uses for groceries when they start to go bad. A soft tomato can go in a sauce, dry bread in a soup or used for French toast and&nbsp;a brown banana can go in a smoothie,” Schrøder adviced. \n",
+                "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
             ],
@@ -278,110 +647,384 @@
             "bgColor": "#ffffff",
             "showBullets": true
           },
-          "_anchor": "slider-l",
-          "articleLayout": false
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "social-buttons1",
-          "_anchor": "social-buttons1-o",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "images/bg3.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "inverse": false,
-            "counters": true,
-            "facebook": true,
-            "google": true,
-            "twitter": true
-          },
-          "text": "SHARE THIS PAGE!"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery1",
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": 3,
-            "images": [
-              {
-                "caption": "Type caption here",
-                "thumb": "images/slide5-small.jpg",
-                "image": "images/slide5.jpg",
-                "active": true
-              },
-              {
-                "caption": "Type caption here",
-                "thumb": "images/slide6-small.jpg",
-                "image": "images/slide6.jpg"
-              },
-              {
-                "caption": "Type caption here",
-                "thumb": "images/slide7-small.jpg",
-                "image": "images/slide7.jpg"
-              },
-              {
-                "caption": "Type caption here",
-                "thumb": "images/slide8-small.jpg",
-                "image": "images/slide8.jpg"
-              }
-            ],
-            "showText": true,
-            "bgColor": "#ffffff",
-            "fullWidth": false,
-            "noGutter": false,
-            "showBullets": true
-          },
-          "_anchor": "gallery1-s",
-          "articleLayout": false
-        },
-        {
-          "_styles": {},
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "video1",
-          "_anchor": "video1-t",
-          "_params": {
-            "bgColor": "#252525",
-            "showText": true
-          },
-          "media": {
-            "image": {
-              "src": "images/slide3.jpg",
-              "class": "mbr-figure__img",
-              "width": 1400
+          "_anchor": "slider-1x",
+          "articleLayout": false,
+          "_styles": {
+            "H1": {
+              "color": "#ffffff",
+              "font-size": "60px"
             },
-            "video": {
-              "active": true,
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            "P": {
+              "color": "#ffffff",
+              "text-align": "left"
             }
-          },
-          "text": "Cut down the development time with drag-and-drop website builder."
+          }
         },
         {
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-u",
-          "title": "DROP-DEAD EASY WEBSITE MAKER",
+          "_anchor": "header3-1z",
+          "title": "DUMPSTER DIVING<br>",
           "_params": {
-            "showMeta": true
+            "showMeta": false
+          },
+          "meta": "By John Smith posted July 30, 2015",
+          "_styles": {
+            "H3": {
+              "font-size": "72px",
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box5",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#4b5b60"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "color": "#4c6972",
+              "font-size": "25px"
+            }
+          },
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-20",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/ansel-dumpster-diving-1400x1397.png",
+              "link": "",
+              "alt": "",
+              "title": "Photo: Ansel Darrell ",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "headerAlign": "left",
+          "title": "USE THE WASTED FOOD&nbsp;",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>“For one it is a very cheap source of food. But it also feels like I am making a statement, a very quiet statement, but it is a statement about food waste,” said Ansel Darrell who has been dumpster diving for almost ten years.&nbsp;</p><p><br></p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-22",
+          "text": "<p>Dumpster diving is a rising trend, so much that supermarkets have started locking dumpsters that were previously open. It is still, unfortunately, easy to find lots of good food in dumpsters. The Facebook group «Friganere» («Freegans») for Norwegian dumpster divers now have over 5000 members who share what they find and where to dumpster dive.  \n</p><p>It is quite easy to dumpster dive in Norway, especially if you know where to go. Darrell said he usually finds what he needs in just one dumpster: “I usually do not spend more than 15 minutes. It is much easier than shopping, because everything is in one place, you do not have to walk around for ages looking for what you want, you just look through, pick out a few things and it is done.” &nbsp;\n&nbsp;&nbsp; </p><p>Stealing from dumpsters&nbsp;is by definition illegal in the Norwegian&nbsp;criminal law §257,&nbsp;according to Ung.no.&nbsp;The rubbish belongs to the person or the company that threw it out. But no one has ever been reported or&nbsp;punished for stealing from supermarket&nbsp;dumpsters, and the crime is&nbsp;usually ignored. &nbsp;</p>",
+          "_styles": {
+            "P": {
+              "color": "#4c6972",
+              "font-size": "19px"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-23",
+          "_params": {
+            "outside": false,
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/ansel-darrell-dumpster-diving-1400x775.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "This was an unusual find. The supermarket had burnt down and had to throw out all their food. Photo: Ansel Darrell&nbsp;"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-24",
+          "text": "<p>Darrell said: “I think a lot of people think it is a very unhealthy way to live, but with the huge quantity of food waste that there is you can be very picky and choosy. Predominantly when I dumpster dive I take fresh organic produce.” </p><p>Even though Darrell dumpster dives a lot, there are some things he would not take from dumpsters. “I am vegan so I do not dumpster dive dairy products or meat or fish or things like that. Mostly because I do not eat them, but also because I think it is very dangerous. Especially things that have defrosted, or things that should be refrigerated, can be dangerous to your health if they have been in the bin for a while. So that is a very important thing to think about, because you can get food poisoning from that,” he said.</p><p><br></p><p><br></p>",
+          "_styles": {
+            "P": {
+              "color": "#4c6972",
+              "font-size": "19px"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-25",
+          "title": "BEAR ISLAND<br>ON A 0,- BUDGET",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": "",
+          "_styles": {
+            "H3": {
+              "font-size": "72px",
+              "text-align": "center"
+            },
+            "P": {
+              "text-align": "center",
+              "font-size": "60px",
+              "color": "#252525"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-27",
+          "text": "<p>Three brothers went on a two month expedition to the remote Bear Island in the North Sea. In their back packs they had a surf board and 80 kilos of dried dumpster dived food. &nbsp;</p><p>&nbsp;\"We decided to survive solely on ‘wasted’ food, that means food that is thrown away or expired, or that we got for free because it was going to be thrown out. We wanted to see if we could manage two months in arctic climate only on ‘waste’,\" said Håkon Wegge.&nbsp;</p>",
+          "_styles": {
+            "P": {
+              "color": "#4b5b60",
+              "font-size": "19px"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-28",
+          "_params": {
+            "outside": false,
+            "bgColor": "#252525",
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/markus-ski-1400x933.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Markus Wegge skis on Bear Island. Photo: Weggebros&nbsp;"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-29",
+          "text": "<p>Håkon Wegge and his<a href=\"https://weggebros.wordpress.com \" target=\"_blank\"> brothers</a> Inge and Markus went on an expedition to Bear Island in 2013. They went to the remote arctic island for fun - to surf, ski and&nbsp;<a href=\"http://bjørnøyathemovie.no\" target=\"_blank\">make a film </a>about their adventures. And the budget for the trip? Zero kroner.&nbsp;To advocate for less waste, they wanted to show that it is possible for three adults to survive solely on “rubbish” in a cold climate. </p><p>\nHåkon Wegge said “It was a natural thing for us to do, since it is something we do in our daily life anyways. It did not feel like a stunt, just something regular. But it is obvious that we had to think about what we did when we knew it would be covered by the media, and we chose to make a bigger deal out of it.” &nbsp; &nbsp;&nbsp;</p>",
+          "_styles": {
+            "P": {
+              "color": "#4b5b60",
+              "font-size": "19px"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-2d",
+          "_params": {
+            "outside": false,
+            "bgColor": "#252525",
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/wegge-1400x788.png",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Markus (left) and Inge Wegge find food before their trip. Photo: Weggebros "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2b",
+          "text": "<p>Håkon Wegge said “It was a natural thing for us to do, since it is something we do in our daily life anyways. It did not feel like a stunt, just something regular. But it is obvious that we had to think about what we did when we knew it would be covered by the media, and we chose to make a bigger deal out of it.” \n&nbsp; &nbsp; </p><p>The Wegge brothers got their equipment and clothes from factory outlets and dumpster dived and dried all their food themselves. This was a big part of the expedition, to shine light on how we view waste. On their trip the brothers also collected three tonnes of plastic waste that had floated up on&nbsp;the beaches of the island, to gain awareness about recycling.&nbsp;\n&nbsp; &nbsp; </p><p>That three grown men easily could survive on&nbsp;rubbish made a big statement about our habits. Even more impressive was it to survive on it in an arctic climate.</p><p> «This type of expedition requires other type of nutrition and diet than in the daily life. On this kind of trips food works as preventive medicine, one should and cannot get sick. So this was the ‘stunt’. But it was not really a stunt, just a way to show how poorly the resources are being used. We always knew it would be completely fine, we have been doing this for years!» said Wegge.&nbsp; </p><p>\n\n</p><p><br></p><p></p><p></p><p></p>",
+          "_styles": {
+            "DIV": {
+              "color": "#4b5b60"
+            },
+            "P": {
+              "font-size": "19px"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-2e",
+          "_params": {
+            "outside": false,
+            "bgColor": "#252525",
+            "showText": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/wegge-alle-1400x933.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "&nbsp;Inge (left), Håkon and Markus spent two months on the little island. Photo: Weggebros&nbsp;"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2f",
+          "text": "<p>To the question of whether it was easy to find all the food they wanted for the expedition, Wegge replied: “No, unfortunately it was quite easy”. </p><p>There is usually no problem to find really good food in the rubbish and to be quite picky about what to take home. It was important for the brothers to enjoy the food they brought with them to the island to make sure they ate enough. \n \t“On an expedition you usually use so much energy that it is hard to get enough nutrition. To get enough energy from the food, we had to know that the food was tasty. It is not enough to just have some healthy gruel if you do not want to eat it,” Wegge explained. \n</p>",
+          "_styles": {
+            "P": {
+              "color": "#4b5b60",
+              "font-size": "19px"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2g",
+          "title": "\"Ideally there would be no good food in the dumpsters, it is very misplaced! \"",
+          "_params": {
+            "showMeta": false
           },
           "meta": "By John Smith posted July 30, 2015"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2h",
+          "text": "<p>“It is important to get the motivation across by showing it in the media. The idea is not that everyone should start digging around in the trash, that is not the solution. Ideally there would be no good food in the dumpsters, it is very misplaced! So for us this was all about highlighting a difficult issue. But it is difficult, because we cannot just say that shop managers are idiots, they throw a way food for a reason after all. But we want to highlight the issue, and hope more pressure on the industry will force them to find better solutions,” said Wegge. \n</p>",
+          "_styles": {
+            "P": {
+              "color": "#4b5b60",
+              "font-size": "19px"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-2i",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#444444",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Tyra Kristiansen Stave. All pictures by Tyra Kristiansen Stave or Tove Kristiansen unless specified. All pictures reposted with permission.&nbsp;<br><br>Contact: k1438401 (a) kingston.ac.uk&nbsp;",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
         }
       ]
     }
