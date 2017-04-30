@@ -27,12 +27,12 @@
 }
 #slider-1p H1 {
   font-size: 60px;
-  text-align: center;
+  text-align: left;
   color: #ffffff;
 }
 #slider-1p P {
   color: #ffffff;
-  text-align: center;
+  text-align: left;
 }
 #content1-1q P {
   color: #4b5b60;
@@ -44,9 +44,10 @@
 }
 #slider-1t H1 {
   font-size: 60px;
+  text-align: left;
 }
 #slider-1t P {
-  text-align: center;
+  text-align: left;
 }
 #content1-1v P {
   color: #4b5b60;
